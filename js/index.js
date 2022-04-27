@@ -12,6 +12,6 @@ let update = setInterval(function () {
         `<p id="info"><span id="day">${day} days - </span><span id="hour">${hour} hours - </span><span id="minute">${minute} mins - </span><span id="second">${second} secs</span></p>`;
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("main-component").innerHTML = 'Happy new year!'
+        document.getElementById("main-component").innerHTML = '<p id="info">Happy new year!</p>'
     }
 }, 1000)
