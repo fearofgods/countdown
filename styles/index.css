@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-color: black;
+}
+
+.app {
+    position: relative;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+}
+
+.wrapper {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#day,
+#hour,
+#minute,
+#second {
+    font-family: 'Orbitron', sans-serif;
+    color: aquamarine;
+    background-color: black;
+    font-size: 30px;
+}
