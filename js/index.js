@@ -15,7 +15,7 @@ let update = setInterval(function () {
     document.getElementById("main-component").innerHTML =
         `<p id="info"><span id="day">${day} days - </span><span id="hour">${hour} hours - </span><span id="minute">${minute} mins - </span><span id="second">${second} secs</span></p>`;
     if (distance < 0) {
-        clearInterval(x);
+        clearInterval(distance);
         document.getElementById("main-component").innerHTML = '<p id="info">Happy new year!</p>'
     }
 }, 1000)
