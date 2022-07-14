@@ -1,4 +1,8 @@
-let countDownTarget = new Date("Jan 1, 2023 0:0:0").getTime();
+const d = new Date();
+let year = d.getFullYear();
+let next_year = year + 1;
+
+let countDownTarget = new Date(`Jan 1, ${next_year} 0:0:0`).getTime();
 
 let update = setInterval(function () {
     let now = new Date().getTime();
